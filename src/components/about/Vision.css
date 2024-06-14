@@ -1,0 +1,36 @@
+.vision {
+  display: block;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 6rem;
+  background-color: rgb(218, 217, 217);
+}
+.top {
+  padding: 6rem 6rem 2rem 6rem;
+  font-weight: bold;
+  opacity: 0.5;
+  letter-spacing: 3px;
+}
+.vline {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  color: #001845;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.container-v {
+  .left-area {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    margin: 0 2rem 0 0;
+    margin-right: 2rem;
+    margin-left: 0rem;
+  }
+  img {
+    padding: 6rem 1rem 6rem 6rem;
+    /* padding-right: 6rem; */
+  }
+}
