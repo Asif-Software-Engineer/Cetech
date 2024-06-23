@@ -16,7 +16,7 @@ export const AboutUs = () => {
     maximumFractionDigits: 0,
   });
   return (
-    <div className="about">
+    <section className="about">
       <div className="container-left">
         <div className="img1">
           <img src="./assets/images/klin.jpg" alt="" />
@@ -53,7 +53,7 @@ export const AboutUs = () => {
         </div>
         <div>
           <div className="revision">
-            <img src="./assets/images/setting.png" alt="" />
+            <img src="./assets/images/clock.svg" alt="" />
             <div className="revise-txt">
               <h4>We Offer Unlimited Revision</h4>
               <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p2>
@@ -74,6 +74,6 @@ export const AboutUs = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
