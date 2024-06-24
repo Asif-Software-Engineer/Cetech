@@ -8,7 +8,7 @@ export const About = () => {
     <div className='abouts'>
       <AboutUs/>
       <Vision/>
-      <Skill/>
+      <Skill />
     </div>
   )
 }

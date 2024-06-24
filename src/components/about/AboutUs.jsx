@@ -17,7 +17,7 @@ export const AboutUs = () => {
   });
   return (
     <section className="about">
-      <div className="container-left">
+      <div className="container-left ">
         <div className="img1">
           <img src="./assets/images/klin.jpg" alt="" />
         </div>
