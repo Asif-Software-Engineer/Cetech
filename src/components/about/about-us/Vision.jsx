@@ -3,7 +3,7 @@ import "./Vision.css";
 
 export const Vision = () => {
   return (
-    <section className="vision">
+    <section className="vision bg-gray-100">
       <div className="m-[6rem] flex flex-col justify-center align-center">
         <div>
           <div className="top">OUR VISSION</div>

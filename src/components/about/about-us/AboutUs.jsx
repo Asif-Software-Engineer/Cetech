@@ -53,7 +53,42 @@ export const AboutUs = () => {
         </div>
         <div>
           <div className="revision">
-            <img src="./assets/images/clock.svg" alt="" />
+            <div className="icon -rotate-90">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2a10 10 0 1 0 10 10h-1a9 9 0 1 1-9-9V2z"
+                  fill="none"
+                  stroke="#100845"
+                  stroke-width="1"
+                />
+                <path d="M12 2 l-2 2 l4 0 z" fill="#100845" />
+                <line
+                  x1="12"
+                  y1="12"
+                  x2="15"
+                  y2="17.5"
+                  stroke="#100845"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="12"
+                  y1="12"
+                  x2="15"
+                  y2="9"
+                  stroke="#100845"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <circle cx="12" cy="12" l="1" fill="#100845" />
+              </svg>
+            </div>
             <div className="revise-txt">
               <h4>We Offer Unlimited Revision</h4>
               <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p2>
@@ -61,9 +96,13 @@ export const AboutUs = () => {
           </div>
           <div className="dotted"></div>
           <div className="feedback">
-            <img src="./assets/images/julio.jpg" alt="" className="img1"/>
-            <img src="./assets/images/young.jpg" alt="" className="img2"/>
-            <img src="./assets/images/software-developer-at-office.jpg" alt="" className="img3"/>
+            <img src="./assets/images/julio.jpg" alt="" className="img1" />
+            <img src="./assets/images/young.jpg" alt="" className="img2" />
+            <img
+              src="./assets/images/software-developer-at-office.jpg"
+              alt=""
+              className="img3"
+            />
             <div className="num">
               <h1>{formattedCounter} +</h1>
             </div>

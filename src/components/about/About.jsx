@@ -1,7 +1,8 @@
 import React from 'react'
-import { AboutUs } from "./AboutUs";
-import { Vision } from './Vision';
-import { Skill } from './Skill';
+import { AboutUs } from "./about-us/AboutUs";
+import { Vision } from './about-us/Vision';
+import { Skill } from './about-us/Skill';
+import { Support } from './about-us/Support';
 
 export const About = () => {
   return (
@@ -9,6 +10,7 @@ export const About = () => {
       <AboutUs/>
       <Vision/>
       <Skill />
+      <Support/>
     </div>
   )
 }
