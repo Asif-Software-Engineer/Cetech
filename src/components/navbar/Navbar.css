@@ -1,134 +1,142 @@
-.navbar {
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nav-links li {
+    position: relative;
+    margin: 1rem;
+  }
+}
+.home1 {
+  align-content: center;
+  font-weight: 600;
+  margin: 0 1.5rem;
+  padding: 2.5rem 0;
+  color: #9d9e9fe1;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home1:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.about1 {
+  align-content: center;
+  font-weight: 600;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  color: #9d9e9fe1;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 1.5rem;
+  padding: 2.5rem 0;
+}
+.about1:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.about1 img {
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0 0 0.5rem;
+}
+.services1 {
+  align-content: center;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+  color: #9d9e9fe1;
+  cursor: pointer;
+  margin: 0 1.5rem;
+  padding: 2.5rem 0;
+}
+.services1:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.services1 img {
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0 0 0.5rem;
+}
+.price1 {
+  align-content: center;
+  font-weight: 600;
+  color: #9d9e9fe1;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 1.5rem;
+  padding: 2.5rem 0;
+}
+.price1:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.pages1 {
+  align-content: center;
+  font-weight: 600;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
+  color: #9d9e9fe1;
+  cursor: pointer;
+  margin: 0 1.5rem;
+  padding: 2.5rem 0;
+}
+.pages1:hover {
+  color: white;
+  border-bottom: 3px solid white;
+}
+.pages1 img {
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
   justify-content: center;
-  z-index: 99;
-  /* margin: -1.3rem; */
-  .logo img {
-    width: 10rem;
-    padding: 1.5rem 7rem 1.5rem 5rem;
+  padding: 0.4rem 0 0 0.5rem;
+}
+.call {
+  color: white;
+  margin: 1rem;
+  padding: 1.5rem 0 1.5rem 8rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  letter-spacing: 0.15rem;
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin: -0.2rem 1rem -0.5rem 1rem;
+    background-image: none;
   }
-  .home1 {
-    align-content: center;
-    font-weight: 600;
-    padding: 2.5rem 1.5rem;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  .home1:hover {
-    border-bottom: 3px solid white;
-  }
-  .about1 {
-    align-content: center;
-    font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 2.5rem 1.5rem;
-  }
-  .about1:hover {
-    border-bottom: 3px solid white;
-  }
-  .about1 img {
-    width: 1rem;
-    height: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding: 0.4rem 0 0 0.5rem;
-  }
-  .services1 {
-    align-content: center;
-    font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    align-items: center;
-    color: white;
-    cursor: pointer;
-    padding: 2.5rem 1.5rem;
-  }
-  .services1:hover {
-    border-bottom: 3px solid white;
-  }
-  .services1 img {
-    width: 1rem;
-    height: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding: 0.4rem 0 0 0.5rem;
-  }
-  .price1 {
-    align-content: center;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 2.5rem 1.5rem;
-  }
-  .price1:hover {
-    border-bottom: 3px solid white;
-  }
-  .pages1 {
-    align-content: center;
-    font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    padding: 2.5rem 1.5rem;
-  }
-  .pages1:hover {
-    border-bottom: 3px solid white;
-  }
-  .pages1 img {
-    width: 1rem;
-    height: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding: 0.4rem 0 0 0.5rem;
-  }
-  .call {
-    color: white;
-    margin: 1rem;
-    padding: 1.5rem 0 1.5rem 8rem;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    letter-spacing: 0.15rem;
-    img {
-      width: 2rem;
-      height: 2rem;
-      margin: -0.2rem 1rem -0.5rem 1rem;
-      background-image: none;
-    }
-  }
-  .call:hover {
-    transition-property: transform;
-    transition-duration: 300ms;
-    transform: translateY(-10px);
-  }
-  .btn {
-    text-transform: uppercase;
-    background-color: blue;
-    color: white;
-    height: 3rem;
-    width: 10rem;
-    margin: 1.8rem;
-    font-weight: 600;
-    cursor: pointer;
-    letter-spacing: 0.15rem;
-  }
-  .btn:hover {
-    background-color: #001845;
-    transition-property: transform;
-    transition-duration: 300ms;
-    transform: translateY(-10px);
-  }
+}
+.call:hover {
+  transition-property: transform;
+  transition-duration: 300ms;
+  transform: translateY(-10px);
+}
+.btn {
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  margin: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.15rem;
+}
+.btn:hover {
+  background-color: #001845;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transform: translateY(-10px);
 }
