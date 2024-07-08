@@ -94,7 +94,7 @@ export const Skill = () => {
                   </div>
                 </div>
               </div>
-              <button className="quote bg-blue2 text-white h-[4rem] w-[15rem] mt-[3rem] ml-[1rem] pr-[2rem] font-bold tracking-wider font-kanit text-center hover:bg-blue hover:transition-transform hover:duration-300 hover:translate-y-[-15px]">
+              <button className="quote bg-btnblu text-white h-[4rem] w-[15rem] mt-[3rem] ml-[1rem] pr-[2rem] font-bold tracking-wider font-kanit text-center hover:bg-blue hover:transition-transform hover:duration-300 hover:translate-y-[-15px]">
                 GET A QUOTE{" "}
                 <img
                   src="../assets/images/right.png"

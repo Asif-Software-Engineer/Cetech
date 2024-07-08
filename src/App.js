@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/navbar/Navbar";
 import { BrowserRouter} from "react-router-dom";
 import { AppRouter } from "./components/routes/AppRouter";
+import { Footer } from "./components/footer/Footer";
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       <BrowserRouter>
         <AppRouter/>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 };

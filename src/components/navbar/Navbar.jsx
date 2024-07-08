@@ -31,7 +31,7 @@ export const Navbar = () => {
           <a className="about1 peer" href="about">
             About <img src="./assets/images/dropdown.png" alt="" />
           </a>
-          <ul className="absolute hidden text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
+          <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
               <a>ABOUT US</a>
             </li>
@@ -47,7 +47,7 @@ export const Navbar = () => {
           <a className="services1 peer" href="services">
             Services <img src="./assets/images/dropdown.png" alt="" />
           </a>
-          <ul className="absolute hidden text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
+          <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
               <a>OUR SERVICES</a>
             </li>
@@ -62,7 +62,7 @@ export const Navbar = () => {
                   alt=""
                   className="w-3 h-2 ml-8 mt-2"
                 />
-                <ul className="absolute hidden text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
+                <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
                   <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
                     <a>DETAIL PROJECT</a>
                   </li>
@@ -80,7 +80,7 @@ export const Navbar = () => {
           <a className="pages1 peer" href="pages">
             Pages <img src="./assets/images/dropdown.png" alt="" />
           </a>
-          <ul className="absolute hidden text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
+          <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
               <a>CONTACT US</a>
             </li>
