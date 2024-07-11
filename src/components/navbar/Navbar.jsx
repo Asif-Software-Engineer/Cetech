@@ -7,8 +7,8 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="navbar flex align-center justify-center z-40 p-4">
-      <a className="m-8">
+    <nav className="navbar flex align-center justify-center p-4">
+      <a className="m-4">
         <img
           src="./assets/images/logo-cetech.png"
           alt="logo"
@@ -33,13 +33,13 @@ export const Navbar = () => {
           </a>
           <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
-              <a>ABOUT US</a>
+              <a href="about">ABOUT US</a>
             </li>
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
-              <a>OUR TEAM</a>
+              <a href="team">OUR TEAM</a>
             </li>
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
-              <a>OUR HISTROY</a>
+              <a href="history">OUR HISTROY</a>
             </li>
           </ul>
         </li>
@@ -102,11 +102,11 @@ export const Navbar = () => {
           </ul>
         </li>
       </ul>
-      <div className="call">
+      <div className="call m-4">
         <img src="../assets/images/call.png" alt="call" />
         123 456 789
       </div>
-      <button className="btn" type="button">
+      <button className="btn m-2" type="button">
         get a quote
       </button>
     </nav>

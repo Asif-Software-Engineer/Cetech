@@ -30,7 +30,7 @@ export const Home = () => {
           <div className="empty"></div>
         </div>
       </div>
-      <About />
+      {/* <About /> */}
     </div>
   );
 };
