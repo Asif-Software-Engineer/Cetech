@@ -1,14 +1,16 @@
 import React from "react";
 import "./Home.css";
 import { Banner } from "./Banner";
-import { About } from "../about/About";
+import { AboutUs } from "../about/about-us/AboutUs";
+import { WeTeam } from "../about/team/WeTeam";
+import { Skill } from "../about/about-us/Skill";
+import { Support } from '../about/about-us/Support';
 
 export const Home = () => {
   return (
     <div className="body">
       <div className="home">
         <div className="hbanner"><Banner /></div>
-        
         <div className="container">
           <div className="content">
             <h2 className="h2">custom software development</h2>
@@ -30,7 +32,15 @@ export const Home = () => {
           <div className="empty"></div>
         </div>
       </div>
-      {/* <About /> */}
+      clients
+      <AboutUs />
+      <WeTeam />
+      What we do
+      Ideas
+      <Skill />
+      understand
+      price plan
+      <Support />
     </div>
   );
 };

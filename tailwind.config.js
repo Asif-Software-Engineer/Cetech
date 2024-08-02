@@ -16,6 +16,8 @@ module.exports = {
         tgray: 'rgb(92, 103, 125)',
         txt: 'rgb(127, 127, 127)',
         btnblu: '#0466C8',
+        borderClr: '#0466C8',
+        borderClr2: '#DADADA',
       },
       fontSize: {
         25: '25px',

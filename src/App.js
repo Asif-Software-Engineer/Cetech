@@ -7,7 +7,7 @@ import { Footer } from "./components/footer/Footer";
 
 export const App = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Navbar />
       <BrowserRouter>
         <AppRouter/>

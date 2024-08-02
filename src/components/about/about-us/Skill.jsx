@@ -21,13 +21,13 @@ export const Skill = () => {
   }, [completedDesk, completedWeb]);
 
   return (
-    <section>
+    <section className="bg-white">
       <div className="m-[6rem] flex justify-center align-center">
         <div className="left">
           <img
             src="../assets/images/Nouno.jpg"
             alt="find"
-            className="w-[20rem] h-[45rem]  pr-4"
+            className="w-[20rem] h-[45rem] object-cover pr-4"
           />
         </div>
         <div className="ml-[4rem] ">
@@ -42,7 +42,7 @@ export const Skill = () => {
             <img
               src="../assets/images/meeting.jpg"
               alt=""
-              className="w-[17rem] h-[31rem]"
+              className="w-[17rem] h-[31rem] object-cover"
             />
             <div className="ml-[3rem] mr-[1rem] ">
               <p className="text-gray-500 p-[1rem]">

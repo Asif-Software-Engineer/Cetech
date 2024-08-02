@@ -7,13 +7,13 @@ export const Team1 = () => {
         <div className="text-13 font-semibold tracking-widest text-tgray font-kanit pb-6">
           MEET WITH TEAM
         </div>
-        <div className="text-45 font-bold font-kanit text-blue">
+        <div className="text-45 font-bold font-kanit text-blue animate-slide-up">
           Our Expert Team They Have
         </div>
-        <div className="text-45 font-bold font-kanit text-blue">
+        <div className="text-45 font-bold font-kanit text-blue animate-slide-up">
           Amazing Skills Expertise
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-12 lg:ml-8">
           <div class="relative max-w-sm bg-white shadow group">
             <img
               src="../assets/images/t1.jpg"
@@ -79,7 +79,7 @@ export const Team1 = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-12 lg:ml-8">
           <div class="relative max-w-sm bg-white shadow group">
             <img
               src="../assets/images/t4.jpg"

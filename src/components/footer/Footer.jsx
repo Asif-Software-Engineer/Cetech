@@ -2,6 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
+    <section className="flex justify-center align-center bg-blue mt-auto w-full">
     <div className="pt-[6.25rem] px-[3.125rem] pb-[1.875rem] bg-blue flex justify-center align-center">
       <div class="divide-y divide-dashed divide-gray">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 pb-14">
@@ -21,31 +22,31 @@ export const Footer = () => {
               Quick Links
             </h4>
             <ul>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>
                   HomePage
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>About
                   Us
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>Our
                   Services
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>
                   Projects Work
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>
                   Contact Us
@@ -58,31 +59,31 @@ export const Footer = () => {
               Customize Software
             </h4>
             <ul>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>
                   Payment Gateway
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>Point
                   Of Sales
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>
                   Custom Warehouse
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>MLM
                   Software
                 </a>
               </li>
-              <li className="py-1 my-2 text-gray cursor-pointer">
+              <li className="py-1 my-2 text-gray hover:text-white cursor-pointer">
                 <a href="home">
                   <i class="fa fa-caret-right pr-6" aria-hidden="true"></i>SAAS
                   Software
@@ -116,5 +117,6 @@ export const Footer = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };

@@ -30,6 +30,7 @@
   display: block;
   position: absolute;
   z-index: -99;
+  object-fit: cover;
 }
 .container{
     display: flex;

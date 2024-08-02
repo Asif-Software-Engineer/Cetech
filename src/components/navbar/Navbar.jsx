@@ -7,7 +7,7 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="navbar flex align-center justify-center p-4">
+    <nav className="navbar flex align-center justify-center p-4 z-50">
       <a className="m-4">
         <img
           src="./assets/images/logo-cetech.png"
