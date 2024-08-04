@@ -1,11 +1,13 @@
 import React from "react";
+import { Bhistory } from "./history/Bhistory";
+import { Bideas } from "./history/Bideas";
+import { Understanding } from "./history/Understanding";
 
 export const History = () => {
   return (
     <section className="">
-      <div className="">
         <img
-          src="../assets/images/theres-our-solution-.jpg"
+          src="../assets/images/kouding.jpg"
           alt=""
           className="relative -mt-[100px] w-full h-[500px] object-cover -z-10"
         />
@@ -21,7 +23,9 @@ export const History = () => {
             </div>
           </div>
         </div>
-      </div>
+        <Bhistory />
+        <Bideas />
+        <Understanding />
     </section>
   );
 };

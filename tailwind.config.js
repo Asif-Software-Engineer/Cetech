@@ -10,14 +10,15 @@ module.exports = {
     extend: {
       colors:{
         blue: '#001845',
-        blue2: '#3f5888',
+        blue2: '#023E7D',
         white: 'white',
         gray: '#9d9e9fe1',
-        tgray: 'rgb(92, 103, 125)',
-        txt: 'rgb(127, 127, 127)',
+        tgray: 'rgb(127, 127, 127)',
+        txt: '#f9f9f9',
         btnblu: '#0466C8',
         borderClr: '#0466C8',
         borderClr2: '#DADADA',
+        head: '#5C677D',
       },
       fontSize: {
         25: '25px',
@@ -25,6 +26,7 @@ module.exports = {
         55: '55px',
         45: '45px',
         30: '30px',
+        35: '35px',
       },
       keyframes: {
         'slide-up': {

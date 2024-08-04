@@ -49,7 +49,7 @@ export const Navbar = () => {
           </a>
           <ul className="absolute hidden cursor-pointer text-gray bg-white w-60 tracking-wider font-semibold peer-hover:block hover:block">
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
-              <a>OUR SERVICES</a>
+              <a href='services'>OUR SERVICES</a>
             </li>
             <li className="pt-6 pb-6 pl-8 hover:bg-blue hover:text-white">
               <a>DETAIL SERVICE</a>
